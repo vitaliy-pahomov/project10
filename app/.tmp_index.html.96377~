@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+	<title>!!!!!!!!!!!!!!! | index</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+	<!-- wrapper  start -->
+	<div id="wrapper">
+		<div class="w1">
+			<!-- header  start -->
+			<header id="header">
+				<a class="logo" href="#"><img src="images/img.jpg" alt="image" /></a>
+				<nav id="nav">
+					<input id="check-menu" type="checkbox" />
+					<div class="menu-holder">
+						<label class="close-link" for="check-menu"></label>
+						<ul class="menu">
+							<li><a href="#">111</a></li>
+							<li><a href="#">222</a></li>
+							<li><a href="#">333</a></li>
+							<li><a href="#">444</a></li>
+							<li><a href="#">555</a></li>
+						</ul>
+					</div>
+					<label class="toogle-menu" for="check-menu">
+						<span class="t">&nbsp;</span>
+						<span class="c">&nbsp;</span>
+						<span class="b">&nbsp;</span>
+					</label>
+					<label class="nav-overlay" for="check-menu">&nbsp;</label>
+				</nav>
+			</header>
+			<!-- header  end -->
+			<!-- main  start -->
+			<div id="main">
+				
+			</div>
+			<!-- main  end -->
+		</div>
+		<!-- footer  start -->
+		<footer id="footer">
+			
+		</footer>
+		<!-- footer  end -->
+	</div>
+	<!-- wrapper  end -->
+	
+	<script src="js/scripts.min.js"></script>
+	
+</body>
+</html>

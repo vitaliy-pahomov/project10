@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+	<title>quantum</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+	<!-- wrapper  start -->
+	<div class="wrapper">
+		<div class="w1">
+			<!-- header  start -->
+			<header class="header">
+				<div class="container">
+					<div class="top-head">
+						<a href="#" class="logo">QUANTUM</a>
+						<div class="search-box">
+							<form class="search-box_form" action="#">								<input class="input search-box_input" type="text" placeholder="Search goods" />								<select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false, "fakeDropInBody": false, "useCustomScroll": false}'>
+									<option value="v1">CATEGORY</option>
+									<option value="v2">CATEGORY 1</option>
+									<option value="v3">CATEGORY 2</option>
+									<option value="v4">CATEGORY 3</option>
+									<option value="v5">CATEGORY 4</option>
+									<option value="v6">CATEGORY 5</option>
+								</select>								<button class="btn search-box_btn" type="submit"><i class="fas fa-search"></i></button>							</form>
+						</div>
+						<ul class="user-list">
+							<li class="user-list_item cart user-list_item_active">
+								<a href="#" class="user-list_link"><span class="number">2</span> Items</a>
+							</li>
+							<li class="user-list_item like">
+								<a href="#" class="user-list_link">Wish List</a>
+							</li>
+							<li class="user-list_item user">
+								<a href="#modal-window" class="user-list_link simplebox">Sing in</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="bottom-head">
+					<div class="container">
+						<nav class="bottom-head_hold">
+							<div class="category-box">
+								<input class="category-box_input" id="category-check" type="checkbox" />
+								<label class="category-box_label" for="category-check">
+									<span class="category-box_button">
+										<span class="line"></span>
+										<span class="line"></span>
+										<span class="line"></span>
+									</span>
+									<span class="category-box_text">All Categories</span>
+								</label>
+								<ul class="category-box_drop">
+									<li class="category-box_item">
+										<a class="category-box_link" href="#">All Categories 1</a>
+									</li>
+									<li class="category-box_item">
+										<a class="category-box_link" href="#">All Categories 2</a>
+									</li>
+									<li class="category-box_item">
+										<a class="category-box_link" href="#">All Categories 3</a>
+									</li>
+									<li class="category-box_item">
+										<a class="category-box_link" href="#">All Categories 4</a>
+									</li>
+									<li class="category-box_item">
+										<a class="category-box_link" href="#">All Categories 5</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="menu">
+								<li class="menu_item">
+									<a class="menu_link" href="#">Super Deals</a>
+								</li>
+								<li class="menu_item">
+									<a class="menu_link" href="#">Featured Brands</a>
+								</li>
+								<li class="menu_item">
+									<a class="menu_link" href="#">Collections</a>
+								</li>
+								<li class="menu_item">
+									<a class="menu_link" href="#">Bestselling</a>
+								</li>
+							</ul>
+							<div class="option-box">
+								<div class="option-box_hold">
+									<span class="option-box_button">Help</span>
+									<ul class="option-box_drop">
+										<li class="option-box_item">
+											<a class="option-box_link" href="#">Help 1</a>
+										</li>
+										<li class="option-box_item">
+											<a class="option-box_link" href="#">Help 2</a>
+										</li>
+										<li class="option-box_item">
+											<a class="option-box_link" href="#">Help 3</a>
+										</li>
+									</ul>
+								</div>
+								<div class="option-box_hold">
+									<span class="option-box_button">USD</span>
+									<ul class="option-box_drop">
+										<li class="option-box_item">
+											<a class="option-box_link" href="#">USD 1</a>
+										</li>
+										<li class="option-box_item">
+											<a class="option-box_link" href="#">USD 2</a>
+										</li>
+									</ul>
+								</div>
+								<div class="option-box_hold">
+									<span class="option-box_button">Language</span>
+									<ul class="option-box_drop">
+										<li class="option-box_item">
+											<a class="option-box_link" href="#">Language 1</a>
+										</li>
+										<li class="option-box_item">
+											<a class="option-box_link" href="#">Language 2</a>
+										</li>
+										<li class="option-box_item">
+											<a class="option-box_link" href="#">Language 3</a>
+										</li>
+										<li class="option-box_item">
+											<a class="option-box_link" href="#">Language 4</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- header  end -->
+			<!-- main  start -->
+			<div class="main">
+				<div class="container">
+					<div class="up-box">
+						<ul class="breadcrumbs">
+							<li class="breadcrumbs_item">
+								<a class="breadcrumbs_link" href="#">Main</a>
+							</li>
+							<li class="breadcrumbs_item">
+								<a class="breadcrumbs_link" href="#">Mobile phones</a>
+							</li>
+							<li class="breadcrumbs_item">
+								<a class="breadcrumbs_link" href="#">Apple</a>
+							</li>
+							<li class="breadcrumbs_item">
+								<span class="breadcrumbs_link">Apple iPhone 7, 128 GB</span>
+							</li>
+						</ul>
+						<div class="share-box">
+							<span class="share-box_text">Share:</span>
+							<dl class="share-box_list">								<dt class="share-box_net">
+									<a class="share-box_link" href="#"><i class="fab fa-facebook-f"></i></a>
+								</dt>								<dd class="share-box_number">45</dd>							</dl>
+							<dl class="share-box_list">
+								<dt class="share-box_net">
+									<a class="share-box_link" href="#"><i class="fab fa-twitter"></i></a>
+								</dt>
+								<dd class="share-box_number">12</dd>
+							</dl>
+						</div>
+					</div>
+					<h1>Smartphones</h1>
+					<div class="product-box">
+						<span class="show-filter">filters</span>
+						<div class="filter-overlay close"></div>
+						<div class="filter-box">
+							<div class="close-link close"></div>
+							<form action="#">
+								<div class="filter-hold open">
+									<div class="filter-hold_title">Price</div>
+									<div class="filter-hold_drop">
+										<div class="filter-hold_drop_hold">
+											<div class="has-slider">
+												<div class="line-hold">
+													<div class="ui-slider" data-min="0" data-max="1000">
+														<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0;"></span>
+														<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;"></span>
+													</div>
+													<div class="line-down">
+														<span class="line-down_item from">$ <span class="quantity">38.72</span></span>
+														<span class="line-down_item">—</span>
+														<span class="line-down_item to">$ <span class="quantity">971.62</span></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-hold open">
+									<div class="filter-hold_title">Brand</div>
+									<div class="filter-hold_drop">
+										<div class="filter-hold_drop_hold">
+											<ul class="filter-hold_list">
+												<li class="filter-hold_item">
+													<input id="filter01" class="filter-hold_input" type="checkbox" />
+													<label for="filter01" class="filter-hold_label">Apple</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter02" class="filter-hold_input" type="checkbox" />
+													<label for="filter02" class="filter-hold_label">Sony</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter03" class="filter-hold_input" type="checkbox" />
+													<label for="filter03" class="filter-hold_label">Asus</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter04" class="filter-hold_input" type="checkbox" />
+													<label for="filter04" class="filter-hold_label">LG</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter05" class="filter-hold_input" type="checkbox" />
+													<label for="filter05" class="filter-hold_label">Lenovo</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter06" class="filter-hold_input" type="checkbox" />
+													<label for="filter06" class="filter-hold_label">Meizu</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter07" class="filter-hold_input" type="checkbox" />
+													<label for="filter07" class="filter-hold_label">Xiaomi</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter08" class="filter-hold_input" type="checkbox" />
+													<label for="filter08" class="filter-hold_label">HTC</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter09" class="filter-hold_input" type="checkbox" />
+													<label for="filter09" class="filter-hold_label">Apple 2</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter10" class="filter-hold_input" type="checkbox" />
+													<label for="filter10" class="filter-hold_label">Sony 2</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter11" class="filter-hold_input" type="checkbox" />
+													<label for="filter11" class="filter-hold_label">Asus 2</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter12" class="filter-hold_input" type="checkbox" />
+													<label for="filter12" class="filter-hold_label">LG 2</label>
+												</li>
+											</ul>
+											<span class="show-button">SHOW MORE</span>
+										</div>
+									</div>
+								</div>
+								<div class="filter-hold open">
+									<div class="filter-hold_title">Color</div>
+									<div class="filter-hold_drop">
+										<div class="filter-hold_drop_hold">
+											<ul class="filter-hold_list">
+												<li class="filter-hold_item">
+													<input id="filter13" class="filter-hold_input" type="checkbox" />
+													<label for="filter13" class="filter-hold_label">Ivory</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter14" class="filter-hold_input" type="checkbox" />
+													<label for="filter14" class="filter-hold_label">Deep Grey</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter15" class="filter-hold_input" type="checkbox" />
+													<label for="filter15" class="filter-hold_label">Coffee</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter16" class="filter-hold_input" type="checkbox" />
+													<label for="filter16" class="filter-hold_label">Red</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter17" class="filter-hold_input" type="checkbox" />
+													<label for="filter17" class="filter-hold_label">Pink</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter18" class="filter-hold_input" type="checkbox" />
+													<label for="filter18" class="filter-hold_label">Yellow</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter19" class="filter-hold_input" type="checkbox" />
+													<label for="filter19" class="filter-hold_label">Green</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter20" class="filter-hold_input" type="checkbox" />
+													<label for="filter20" class="filter-hold_label">Black</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter21" class="filter-hold_input" type="checkbox" />
+													<label for="filter21" class="filter-hold_label">Ivory 2</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter22" class="filter-hold_input" type="checkbox" />
+													<label for="filter22" class="filter-hold_label">Deep Grey 2</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter23" class="filter-hold_input" type="checkbox" />
+													<label for="filter23" class="filter-hold_label">Coffee 2</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter24" class="filter-hold_input" type="checkbox" />
+													<label for="filter24" class="filter-hold_label">Red 2</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter25" class="filter-hold_input" type="checkbox" />
+													<label for="filter25" class="filter-hold_label">Pink 2</label>
+												</li>
+												<li class="filter-hold_item">
+													<input id="filter26" class="filter-hold_input" type="checkbox" />
+													<label for="filter26" class="filter-hold_label">Yellow 2</label>
+												</li>
+											</ul>
+											<span class="show-button">SHOW MORE</span>
+										</div>
+									</div>
+								</div>
+								<div class="filter-hold">
+									<div class="filter-hold_title">Body Weight</div>
+									<div class="filter-hold_drop">
+										<div class="filter-hold_drop_hold">
+											#
+										</div>
+									</div>
+								</div>
+								<div class="filter-hold">
+									<div class="filter-hold_title">CPU Cores</div>
+									<div class="filter-hold_drop">
+										<div class="filter-hold_drop_hold">
+											#
+										</div>
+									</div>
+								</div>
+								<div class="filter-hold">
+									<div class="filter-hold_title">CPU Type</div>
+									<div class="filter-hold_drop">
+										<div class="filter-hold_drop_hold">
+											#
+										</div>
+									</div>
+								</div>
+								<div class="filter-hold">
+									<div class="filter-hold_title">Screen Size</div>
+									<div class="filter-hold_drop">
+										<div class="filter-hold_drop_hold">
+											#
+										</div>
+									</div>
+								</div>
+								<div class="filter-hold">
+									<div class="filter-hold_title">Operation System</div>
+									<div class="filter-hold_drop">
+										<div class="filter-hold_drop_hold">
+											#
+										</div>
+									</div>
+								</div>
+								<div class="filter-hold">
+									<div class="filter-hold_title">Cellular</div>
+									<div class="filter-hold_drop">
+										<div class="filter-hold_drop_hold">
+											#
+										</div>
+									</div>
+								</div>
+								<div class="filter-hold">
+									<div class="filter-hold_title">Ram</div>
+									<div class="filter-hold_drop">
+										<div class="filter-hold_drop_hold">
+											#
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="content-box">
+	                        <div class="tabs">
+	                            <div class="content-box_up">
+		                            <ul class="content-box_up_list">
+		                                <li data-tab="#tab01" class="content-box_up_list_item active">Popular <span class="del">products</span></li>
+		                                <li data-tab="#tab02" class="content-box_up_list_item">Low <span class="del">price</span></li>
+		                                <li data-tab="#tab03" class="content-box_up_list_item">High <span class="del">price</span></li>
+		                            </ul>
+									<ul class="content-box_up_view">
+										<li class="content-box_up_view_item grid active">
+											<div class="square"></div>											<div class="square"></div>											<div class="square"></div>											<div class="square"></div>											<div class="square"></div>											<div class="square"></div>
+										</li>										<li class="content-box_up_view_item list">
+											<div class="square"></div>
+											<div class="square"></div>
+											<div class="square"></div>
+											<div class="square"></div>
+											<div class="square"></div>
+											<div class="square"></div>
+										</li>
+									</ul>
+	                            </div>
+	                            <div class="tab" id="tab01">
+	                                <div class="content-hold">
+	                                	<div class="content-hold_col">
+		                                	<div class="content-hold_box">
+		                                		<div class="content-hold_up">
+		                                			<span class="sale">SALE 10%</span>
+													<ul class="content-hold_up_list">
+														<li class="content-hold_up_list_item list-link">
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+														</li>
+														<li class="content-hold_up_list_item like">
+															<a class="like-link" href="#"><i class="far fa-heart"></i></a>
+														</li>
+													</ul>
+		                                		</div>
+												<a href="#" class="content-hold_box_img-hold"><img class="img" src="images/product-img01.jpg" alt="image" /></a>
+												<a href="#" class="content-hold_box_title">Asus ZenFone Go ZB452KG
+												(black and white)</a>
+												<div class="star-box">
+													<ul class="star-box_list">
+														<li class="star-box_item"><i class="fas fa-star"></i></li>														<li class="star-box_item"><i class="fas fa-star"></i></li>														<li class="star-box_item"><i class="fas fa-star"></i></li>														<li class="star-box_item"><i class="fas fa-star-half-alt"></i></li>														<li class="star-box_item grey"><i class="far fa-star"></i></li>
+													</ul>
+													<span class="star-box_number">12</span>
+												</div>
+												<div class="buy-box">
+													<strong class="buy-box_price">$ 384.4</strong>
+													<a href="#" class="buy-box_cart"></a>
+												</div>
+		                                	</div>
+	                                	</div>
+										<div class="content-hold_col">
+											<div class="content-hold_box">
+		                                		<div class="content-hold_up">
+		                                			<span class="sale">SALE 10%</span>
+													<ul class="content-hold_up_list">
+														<li class="content-hold_up_list_item list-link">
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+														</li>
+														<li class="content-hold_up_list_item like">
+															<a class="like-link" href="#"><i class="far fa-heart"></i></a>
+														</li>
+													</ul>
+		                                		</div>
+												<a href="#" class="content-hold_box_img-hold"><img class="img" src="images/product-img02.jpg" alt="image" /></a>
+												<a href="#" class="content-hold_box_title">Asus ZenFone Go ZB452KG
+												(black and white)</a>
+												<div class="star-box">
+													<ul class="star-box_list">
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star-half-alt"></i></li>
+														<li class="star-box_item grey"><i class="far fa-star"></i></li>
+													</ul>
+													<span class="star-box_number">12</span>
+												</div>
+												<div class="buy-box">
+													<strong class="buy-box_price">$ 384.4</strong>
+													<a href="#" class="buy-box_cart"></a>
+												</div>
+		                                	</div>
+										</div>
+										<div class="content-hold_col">
+											<div class="content-hold_box">
+	                                			<div class="content-hold_up">
+	                                				<span class="sale">SALE 10%</span>
+													<ul class="content-hold_up_list">
+														<li class="content-hold_up_list_item list-link">
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+														</li>
+														<li class="content-hold_up_list_item like">
+															<a class="like-link" href="#"><i class="far fa-heart"></i></a>
+														</li>
+													</ul>
+		                                		</div>
+												<a href="#" class="content-hold_box_img-hold"><img class="img" src="images/product-img03.jpg" alt="image" /></a>
+												<a href="#" class="content-hold_box_title">Asus ZenFone Go ZB452KG
+												(black and white)</a>
+												<div class="star-box">
+													<ul class="star-box_list">
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star-half-alt"></i></li>
+														<li class="star-box_item grey"><i class="far fa-star"></i></li>
+													</ul>
+													<span class="star-box_number">12</span>
+												</div>
+												<div class="buy-box">
+													<strong class="buy-box_price">$ 384.4</strong>
+													<a href="#" class="buy-box_cart"></a>
+												</div>
+		                                	</div>
+										</div>
+										<div class="content-hold_col">
+											<div class="content-hold_box">
+	                                			<div class="content-hold_up">
+	                                				<span class="sale">SALE 10%</span>
+													<ul class="content-hold_up_list">
+														<li class="content-hold_up_list_item list-link">
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+														</li>
+														<li class="content-hold_up_list_item like">
+															<a class="like-link" href="#"><i class="far fa-heart"></i></a>
+														</li>
+													</ul>
+		                                		</div>
+												<a href="#" class="content-hold_box_img-hold"><img class="img" src="images/product-img04.jpg" alt="image" /></a>
+												<a href="#" class="content-hold_box_title">Asus ZenFone Go ZB452KG
+												(black and white)</a>
+												<div class="star-box">
+													<ul class="star-box_list">
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star-half-alt"></i></li>
+														<li class="star-box_item grey"><i class="far fa-star"></i></li>
+													</ul>
+													<span class="star-box_number">12</span>
+												</div>
+												<div class="buy-box">
+													<strong class="buy-box_price">$ 384.4</strong>
+													<a href="#" class="buy-box_cart"></a>
+												</div>
+		                                	</div>
+										</div>
+										<div class="content-hold_col">
+											<div class="content-hold_box">
+	                                			<div class="content-hold_up">
+	                                				<span class="sale">SALE 10%</span>
+													<ul class="content-hold_up_list">
+														<li class="content-hold_up_list_item list-link">
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+														</li>
+														<li class="content-hold_up_list_item like">
+															<a class="like-link" href="#"><i class="far fa-heart"></i></a>
+														</li>
+													</ul>
+		                                		</div>
+												<a href="#" class="content-hold_box_img-hold"><img class="img" src="images/product-img05.jpg" alt="image" /></a>
+												<a href="#" class="content-hold_box_title">Asus ZenFone Go ZB452KG
+												(black and white)</a>
+												<div class="star-box">
+													<ul class="star-box_list">
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star-half-alt"></i></li>
+														<li class="star-box_item grey"><i class="far fa-star"></i></li>
+													</ul>
+													<span class="star-box_number">12</span>
+												</div>
+												<div class="buy-box">
+													<strong class="buy-box_price">$ 384.4</strong>
+													<a href="#" class="buy-box_cart"></a>
+												</div>
+		                                	</div>
+										</div>
+										<div class="content-hold_col">
+											<div class="content-hold_box">
+	                                			<div class="content-hold_up">
+	                                				<span class="sale">SALE 10%</span>
+													<ul class="content-hold_up_list">
+														<li class="content-hold_up_list_item list-link">
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+														</li>
+														<li class="content-hold_up_list_item like">
+															<a class="like-link" href="#"><i class="far fa-heart"></i></a>
+														</li>
+													</ul>
+		                                		</div>
+												<a href="#" class="content-hold_box_img-hold"><img class="img" src="images/product-img06.jpg" alt="image" /></a>
+												<a href="#" class="content-hold_box_title">Asus ZenFone Go ZB452KG
+												(black and white)</a>
+												<div class="star-box">
+													<ul class="star-box_list">
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star-half-alt"></i></li>
+														<li class="star-box_item grey"><i class="far fa-star"></i></li>
+													</ul>
+													<span class="star-box_number">12</span>
+												</div>
+												<div class="buy-box">
+													<strong class="buy-box_price">$ 384.4</strong>
+													<a href="#" class="buy-box_cart"></a>
+												</div>
+		                                	</div>
+										</div>
+										<div class="content-hold_col">
+											<div class="content-hold_box">
+	                                			<div class="content-hold_up">
+	                                				<span class="sale">SALE 10%</span>
+													<ul class="content-hold_up_list">
+														<li class="content-hold_up_list_item list-link">
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+														</li>
+														<li class="content-hold_up_list_item like">
+															<a class="like-link" href="#"><i class="far fa-heart"></i></a>
+														</li>
+													</ul>
+		                                		</div>
+												<a href="#" class="content-hold_box_img-hold"><img class="img" src="images/product-img07.jpg" alt="image" /></a>
+												<a href="#" class="content-hold_box_title">Asus ZenFone Go ZB452KG
+												(black and white)</a>
+												<div class="star-box">
+													<ul class="star-box_list">
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star-half-alt"></i></li>
+														<li class="star-box_item grey"><i class="far fa-star"></i></li>
+													</ul>
+													<span class="star-box_number">12</span>
+												</div>
+												<div class="buy-box">
+													<strong class="buy-box_price">$ 384.4</strong>
+													<a href="#" class="buy-box_cart"></a>
+												</div>
+		                                	</div>
+										</div>
+										<div class="content-hold_col">
+											<div class="content-hold_box">
+	                                			<div class="content-hold_up">
+	                                				<span class="sale">SALE 10%</span>
+													<ul class="content-hold_up_list">
+														<li class="content-hold_up_list_item list-link">
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+														</li>
+														<li class="content-hold_up_list_item like">
+															<a class="like-link" href="#"><i class="far fa-heart"></i></a>
+														</li>
+													</ul>
+		                                		</div>
+												<a href="#" class="content-hold_box_img-hold"><img class="img" src="images/product-img08.jpg" alt="image" /></a>
+												<a href="#" class="content-hold_box_title">Asus ZenFone Go ZB452KG
+												(black and white)</a>
+												<div class="star-box">
+													<ul class="star-box_list">
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star-half-alt"></i></li>
+														<li class="star-box_item grey"><i class="far fa-star"></i></li>
+													</ul>
+													<span class="star-box_number">12</span>
+												</div>
+												<div class="buy-box">
+													<strong class="buy-box_price">$ 384.4</strong>
+													<a href="#" class="buy-box_cart"></a>
+												</div>
+		                                	</div>
+										</div>
+										<div class="content-hold_col">
+											<div class="content-hold_box">
+	                                			<div class="content-hold_up">
+	                                				<span class="sale">SALE 10%</span>
+													<ul class="content-hold_up_list">
+														<li class="content-hold_up_list_item list-link">
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+															<div class="square"></div>
+														</li>
+														<li class="content-hold_up_list_item like">
+															<a class="like-link" href="#"><i class="far fa-heart"></i></a>
+														</li>
+													</ul>
+		                                		</div>
+												<a href="#" class="content-hold_box_img-hold"><img class="img" src="images/product-img09.jpg" alt="image" /></a>
+												<a href="#" class="content-hold_box_title">Asus ZenFone Go ZB452KG
+												(black and white)</a>
+												<div class="star-box">
+													<ul class="star-box_list">
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star"></i></li>
+														<li class="star-box_item"><i class="fas fa-star-half-alt"></i></li>
+														<li class="star-box_item grey"><i class="far fa-star"></i></li>
+													</ul>
+													<span class="star-box_number">12</span>
+												</div>
+												<div class="buy-box">
+													<strong class="buy-box_price">$ 384.4</strong>
+													<a href="#" class="buy-box_cart"></a>
+												</div>
+		                                	</div>
+										</div>
+	                                </div>
+									<ul class="pagination">
+										<li class="pagination_item left-arrow">
+											<a href="#" class="pagination_link">
+												<i class="fas fa-arrow-left"></i>
+												<span class="text">PREVIOUS PAGE</span>
+											</a>
+										</li>
+										<li class="pagination_item">
+											<span class="pagination_page active">1</span>
+										</li>
+										<li class="pagination_item right-arrow">
+											<a href="#" class="pagination_link">
+												<span class="text">NEXT PAGE</span>
+												<i class="fas fa-arrow-right"></i>
+											</a>
+										</li>
+									</ul>
+	                            </div>
+	                            <div class="tab" id="tab02">
+	                                #2
+	                            </div>
+	                            <div class="tab" id="tab03">
+	                                #3
+	                            </div>
+	                        </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- main  end -->
+		</div>
+		<!-- footer  start -->
+		<footer class="footer">
+			<div class="container">
+				<div class="top-foot">
+					<div class="logo-hold">
+						<a href="#" class="logo">QUANTUM</a>
+					</div>
+					<ul class="top-foot_menu">
+						<li class="top-foot_menu_item">
+							<input class="top-foot_menu_input" id="shop-check" type="checkbox" />
+							<label for="shop-check" class="top-foot_menu_link label">Shop</label>
+							<ul class="top-foot_menu_drop">
+								<li class="top-foot_menu_drop_item">
+									<a href="#" class="top-foot_menu_drop_link">Shop 1</a>
+								</li>
+								<li class="top-foot_menu_drop_item">
+									<a href="#" class="top-foot_menu_drop_link">Shop 2</a>
+								</li>
+								<li class="top-foot_menu_drop_item">
+									<a href="#" class="top-foot_menu_drop_link">Shop 3</a>
+								</li>
+							</ul>
+						</li>
+						<li class="top-foot_menu_item">
+							<a href="#" class="top-foot_menu_link">Journal</a>
+						</li>
+						<li class="top-foot_menu_item">
+							<a href="#" class="top-foot_menu_link">About</a>
+						</li>
+						<li class="top-foot_menu_item">
+							<a href="#" class="top-foot_menu_link">Contacts</a>
+						</li>
+					</ul>
+					<ul class="top-foot_web">
+						<li class="top-foot_web_item">
+							<a href="#" class="top-foot_web_link"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="top-foot_web_item">
+							<a href="#" class="top-foot_web_link"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="top-foot_web_item">
+							<a href="#" class="top-foot_web_link"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li class="top-foot_web_item">
+							<a href="#" class="top-foot_web_link"><i class="fab fa-youtube"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom-foot">
+				<div class="container">
+					<div class="bottom-foot_hold">
+						<ul class="bottom-foot_company">
+							<li class="bottom-foot_company_item">
+								<a href="#" class="bottom-foot_company_link">© 2016. Quantum UI kit</a>
+							</li>
+							<li class="bottom-foot_company_item">
+								<a href="#" class="bottom-foot_company_link">Privacy Policy</a>
+							</li>
+							<li class="bottom-foot_company_item">
+								<a href="#" class="bottom-foot_company_link">Terms of Use</a>
+							</li>
+						</ul>
+						<ul class="bottom-foot_pay">
+							<li class="bottom-foot_pay_item">
+								<span class="bottom-foot_pay_title">Accepted payment methods</span>
+							</li>
+							<li class="bottom-foot_pay_item">
+								<a href="#" class="bottom-foot_pay_link"><img src="images/pay-img01.jpg" alt="image" class="img" /></a>
+							</li>
+							<li class="bottom-foot_pay_item">
+								<a href="#" class="bottom-foot_pay_link"><img src="images/pay-img02.jpg" alt="image" class="img" /></a>
+							</li>
+							<li class="bottom-foot_pay_item">
+								<a href="#" class="bottom-foot_pay_link"><img src="images/pay-img03.jpg" alt="image" class="img" /></a>
+							</li>
+							<li class="bottom-foot_pay_item">
+								<a href="#" class="bottom-foot_pay_link"><img src="images/pay-img04.jpg" alt="image" class="img" /></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer  end -->
+	</div>
+	<!-- wrapper  end -->
+	
+	<div class="modal" id="modal-window">		<span class="close"></span>		<form action="#">			<div class="inp-hold">
+				<input class="input" type="text" placeholder="Username" />
+			</div>
+			<div class="inp-hold">
+				<input class="input" type="password" placeholder="Password" />
+			</div>			<button class="btn" type="submit">Login</button>		</form>	</div>
+	
+	<script src="js/scripts.min.js"></script>
+	
+</body>
+</html>
